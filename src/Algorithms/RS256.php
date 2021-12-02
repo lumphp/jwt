@@ -17,11 +17,6 @@ class RS256 implements Algorithm
         return JWA::RS256;
     }
 
-    public function getOptions() : array
-    {
-        return ['openssl', 'SHA256', OPENSSL_ALGO_SHA256];
-    }
-
     /**
      * @return OpenSSLSigner
      */

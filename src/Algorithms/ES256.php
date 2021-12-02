@@ -17,11 +17,6 @@ class ES256 implements Algorithm
         return JWA::ES256;
     }
 
-    public function getOptions() : array
-    {
-        return ['openssl', 'SHA256'];
-    }
-
     /**
      * @return int
      */

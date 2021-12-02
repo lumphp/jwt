@@ -17,11 +17,6 @@ class RS512 implements Algorithm
         return JWA::RS512;
     }
 
-    public function getOptions() : array
-    {
-        return ['openssl', 'SHA256', OPENSSL_ALGO_SHA512];
-    }
-
     /**
      * @return OpenSSLSigner
      */

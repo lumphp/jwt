@@ -17,11 +17,6 @@ class ES384 implements Algorithm
         return JWA::ES384;
     }
 
-    public function getOptions() : array
-    {
-        return ['openssl', 'SHA384'];
-    }
-
     /**
      * @return int
      */

@@ -17,11 +17,6 @@ class ES512 implements Algorithm
         return JWA::ES512;
     }
 
-    public function getOptions() : array
-    {
-        return ['openssl', 'SHA512'];
-    }
-
     /**
      * @return OpenSSLSigner
      */

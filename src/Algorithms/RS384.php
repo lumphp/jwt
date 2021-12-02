@@ -17,11 +17,6 @@ class RS384 implements Algorithm
         return JWA::RS384;
     }
 
-    public function getOptions() : array
-    {
-        return ['openssl', 'SHA256', OPENSSL_ALGO_SHA384];
-    }
-
     /**
      * @return OpenSSLSigner
      */
